@@ -42,4 +42,13 @@ public class SearchFeatureStepDefinitions {
         Assert.assertEquals("Apple MacBook Pro", name);
     }
 
+    @Then("Order id is {int} and username is {string}")
+    //@Then("Order id is (\\d) and username is (\\s)")
+    public void order_id_is_and_username_is(Integer price, String orderId) {
+        // Write code here that turns the phrase above into concrete actions
+        System.out.println("In Then Order id is {int} and username is {string} ");
+        System.out.println("order Id " + orderId + " price: " + price);
+    }
+
+
 }
