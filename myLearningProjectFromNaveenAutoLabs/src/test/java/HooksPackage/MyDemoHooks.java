@@ -20,7 +20,7 @@ public class MyDemoHooks {
         System.out.println("Launch URL");
     }
 
-    @BeforeStep
+    /*@BeforeStep
     public void takeScreenShot(){
 
         System.out.println("In BeforeStep takeScreenSHot() function");
@@ -30,7 +30,7 @@ public class MyDemoHooks {
     public void refreshPage(Scenario sc){
 
         System.out.println("In AfterStep refreshPage() function");
-    }
+    }*/
 
     @After(order = 2)
     public void tearDown_CloseApplication(Scenario sc){

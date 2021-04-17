@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="1.016">
+    <testcase classname="My First Search Feature from Naveen Automation Labs" name="Search a Product" time="0.239">
+        <system-out>
+            <![CDATA[Given I have a search field on the Amazon page..............................passed
+When I search for a product with name "Apple MacBook Pro" and price 1000....passed
+Then Product with name "Apple MacBook Pro" shall be displayed...............passed
+Then Order id is 12345 and username is "Raghu"..............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="My First Search Feature from Naveen Automation Labs" name="Search a Product Iphone" time="0.032">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given I have a search field on the Amazon page..............................passed
+When I search for a product with name "Iphone" and price 1200...............passed
+Then Product with name "Iphone" shall be displayed..........................passed
+Then Order id is 5677 and username is "Raghu Cucumber Learning".............passed
+Then User checks the Order..................................................undefined
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="My First Search Feature from Naveen Automation Labs" name="Search a Product Ipad" time="0.008">
+        <system-out>
+            <![CDATA[Given I have a search field on the Amazon page..............................passed
+When I search for a product with name "Ipad" and price 800..................passed
+Then Product with name "Ipad" shall be displayed............................passed
+Then Order id is 35789 and username is "Raghu Ipad Learning"................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

@@ -1,0 +1,376 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-17T23:07:37.164Z",
+        "before": [
+          {
+            "result": {
+              "duration": 23349700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksPackage.MyDemoHooks.setupBrowser(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksPackage.MyDemoHooks.setupUrl()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Search a Product",
+        "description": "",
+        "id": "my-first-search-feature-from-naveen-automation-labs;search-a-product",
+        "after": [
+          {
+            "result": {
+              "duration": 8677500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksPackage.MyDemoHooks.tearDown_CloseApplication(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksPackage.MyDemoHooks.tearDown_BrowseClose()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I have a search field on the Amazon page",
+            "match": {
+              "location": "FeatureTestClasses.SearchFeatureStepDefinitions.i_have_a_search_field_on_the_amazon_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 45227100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I search for a product with name \"Apple MacBook Pro\" and price 1000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Apple MacBook Pro\"",
+                  "offset": 33
+                },
+                {
+                  "val": "1000",
+                  "offset": 63
+                }
+              ],
+              "location": "FeatureTestClasses.SearchFeatureStepDefinitions.i_search_for_a_product_with_name_and_price(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5031500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Product with name \"Apple MacBook Pro\" shall be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Apple MacBook Pro\"",
+                  "offset": 18
+                }
+              ],
+              "location": "FeatureTestClasses.SearchFeatureStepDefinitions.product_with_name_shall_be_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4614100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Order id is 12345 and username is \"Raghu\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12345",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Raghu\"",
+                  "offset": 34
+                }
+              ],
+              "location": "FeatureTestClasses.SearchFeatureStepDefinitions.order_id_is_and_username_is(java.lang.Integer,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-17T23:07:37.561Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksPackage.MyDemoHooks.setupBrowser(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksPackage.MyDemoHooks.setupUrl()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Search a Product Iphone",
+        "description": "",
+        "id": "my-first-search-feature-from-naveen-automation-labs;search-a-product-iphone",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksPackage.MyDemoHooks.tearDown_CloseApplication(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksPackage.MyDemoHooks.tearDown_BrowseClose()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I have a search field on the Amazon page",
+            "match": {
+              "location": "FeatureTestClasses.SearchFeatureStepDefinitions.i_have_a_search_field_on_the_amazon_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I search for a product with name \"Iphone\" and price 1200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Iphone\"",
+                  "offset": 33
+                },
+                {
+                  "val": "1200",
+                  "offset": 52
+                }
+              ],
+              "location": "FeatureTestClasses.SearchFeatureStepDefinitions.i_search_for_a_product_with_name_and_price(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Product with name \"Iphone\" shall be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Iphone\"",
+                  "offset": 18
+                }
+              ],
+              "location": "FeatureTestClasses.SearchFeatureStepDefinitions.product_with_name_shall_be_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5025000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Order id is 5677 and username is \"Raghu Cucumber Learning\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5677",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Raghu Cucumber Learning\"",
+                  "offset": 33
+                }
+              ],
+              "location": "FeatureTestClasses.SearchFeatureStepDefinitions.order_id_is_and_username_is(java.lang.Integer,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-17T23:07:37.580Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksPackage.MyDemoHooks.setupBrowser(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksPackage.MyDemoHooks.setupUrl()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Search a Product Ipad",
+        "description": "",
+        "id": "my-first-search-feature-from-naveen-automation-labs;search-a-product-ipad",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksPackage.MyDemoHooks.tearDown_CloseApplication(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksPackage.MyDemoHooks.tearDown_BrowseClose()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I have a search field on the Amazon page",
+            "match": {
+              "location": "FeatureTestClasses.SearchFeatureStepDefinitions.i_have_a_search_field_on_the_amazon_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5020700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I search for a product with name \"Ipad\" and price 800",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ipad\"",
+                  "offset": 33
+                },
+                {
+                  "val": "800",
+                  "offset": 50
+                }
+              ],
+              "location": "FeatureTestClasses.SearchFeatureStepDefinitions.i_search_for_a_product_with_name_and_price(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Product with name \"Ipad\" shall be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ipad\"",
+                  "offset": 18
+                }
+              ],
+              "location": "FeatureTestClasses.SearchFeatureStepDefinitions.product_with_name_shall_be_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Order id is 35789 and username is \"Raghu Ipad Learning\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "35789",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Raghu Ipad Learning\"",
+                  "offset": 34
+                }
+              ],
+              "location": "FeatureTestClasses.SearchFeatureStepDefinitions.order_id_is_and_username_is(java.lang.Integer,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "My First Search Feature from Naveen Automation Labs",
+    "description": "",
+    "id": "my-first-search-feature-from-naveen-automation-labs",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/AppFeatures/HooksSearch.feature",
+    "tags": []
+  }
+]

@@ -10,4 +10,12 @@ Feature: My First Search Feature from Naveen Automation Labs
     When I search for a product with name "Iphone" and price 1200
     Then Product with name "Iphone" shall be displayed
     Then Order id is 5677 and username is "Raghu Cucumber Learning"
+    Then User checks the Order
+
+    @Smoke
+  Scenario: Search a Product Ipad
+    Given I have a search field on the Amazon page
+    When I search for a product with name "Ipad" and price 800
+    Then Product with name "Ipad" shall be displayed
+    Then Order id is 35789 and username is "Raghu Ipad Learning"
 
